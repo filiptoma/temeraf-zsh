@@ -45,12 +45,6 @@ function my_current_branch() {
   echo $(git_current_branch || echo "(no branch)")
 }
 
-function ssh_connection() {
-  if [[ -n $SSH_CONNECTION ]]; then
-    echo "%{$fg_bold[red]%}(ssh) "
-  fi
-}
-
 local ret_status="%(?:%{$FG[112]%}:%{$fg_bold[red]%})%?%{$reset_color%}"
 PROMPT=$'\n╒╼ %{$FG[178]%}%n%{$reset_color%} komanduje v %{$FG[069]%}%~ $(my_git_prompt)%{$FG[238]%}[%*]%{$reset_color%}\n╰(${ret_status}) '
 

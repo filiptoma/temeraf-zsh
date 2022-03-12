@@ -2,6 +2,8 @@
 
 My custom zsh theme with return codes, timestamp and minimal git support.
 
+![obrázok](https://user-images.githubusercontent.com/75210139/158033940-b2a1d031-5739-4214-beb2-24d0c7c594f9.png)
+
 ### How to apply TEMERAF theme
 Clone this repo and `cd` into it.
 

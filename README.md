@@ -15,7 +15,7 @@ $ vim ~/.zshrc
 ```
 Restart zsh for changes to apply. Also delete cloned repository.
 
-### How to install zsh with Oh My Zsh
+## How to install zsh with Oh My Zsh
 First, install zsh itself (I use **apt**, feel free to use whatever else).
 ```
 $ sudo apt install zsh
